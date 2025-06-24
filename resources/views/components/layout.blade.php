@@ -50,7 +50,7 @@
                             });
                         }, {
                             threshold: 0,
-                            rootMargin: '0px 0px -1% 0px'
+                            rootMargin: '-1% 0px -1% 0px'
                         }
                     );
 
