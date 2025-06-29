@@ -1,10 +1,10 @@
 <div x-show="show"
-    class="md:hidden fixed  left-0 w-full  bg-text text-background h-screen flex flex-col items-start justify-center space-y-15  px-6"
+    class="md:hidden fixed  left-0 w-full  bg-text text-background h-dvh flex flex-col items-start justify-center space-y-15  px-6"
     x-transition:enter="transition transform duration-[1200ms] ease-in-out" x-transition:enter-start="translate-y-full"
     x-transition:enter-end="translate-y-0" x-transition:leave="transition transform duration-[1200ms] ease-in-out"
     x-transition:leave-start="translate-y-0" x-transition:leave-end="translate-y-full">
 
-    <ul class="flex flex-col space-y-6 text-6xl font-semibold ">
+    <ul class="flex flex-col space-y-6 text-6xl font-semibold mt-20">
         <a href="{{ route('home') }}"
             class="cursor-pointer {{ request()->is(['/']) ? 'underline underline-offset-8' : '' }}">
             <li x-show="show" x-transition:enter="transition transform duration-[1600ms]"

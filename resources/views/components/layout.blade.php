@@ -16,7 +16,8 @@
     @livewireStyles
 
     <!-- Alpine.js (with defer) -->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 
     <!-- Alpine Store: Dark Mode -->
     <script>
@@ -50,7 +51,7 @@
                             });
                         }, {
                             threshold: 0,
-                            rootMargin: '-1% 0px -1% 0px'
+                            rootMargin: '-50% 0px -30% 0px'
                         }
                     );
 
